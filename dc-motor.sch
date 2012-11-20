@@ -6,36 +6,36 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.635" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.3175" altunitdist="mm" altunit="mm"/>
+<grid distance="0.635" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.3175" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,14 +53,14 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -1826,22 +1826,22 @@ http://cds.linear.com/docs/Datasheet/1963fc.pdf</description>
 <devices>
 <device name="" package="TSSOP16">
 <connects>
-<connect gate="G$1" pin="CP1" pad="10"/>
-<connect gate="G$1" pin="CP2" pad="11"/>
-<connect gate="G$1" pin="ENABLE" pad="4"/>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="GND1" pad="12"/>
-<connect gate="G$1" pin="MODE" pad="16"/>
-<connect gate="G$1" pin="NC" pad="5"/>
-<connect gate="G$1" pin="NFAULT" pad="15"/>
-<connect gate="G$1" pin="NSLEEP" pad="3"/>
-<connect gate="G$1" pin="OUT+" pad="6"/>
-<connect gate="G$1" pin="OUT-" pad="9"/>
-<connect gate="G$1" pin="PHASE" pad="1"/>
-<connect gate="G$1" pin="SENSE" pad="7"/>
-<connect gate="G$1" pin="VBB" pad="8"/>
-<connect gate="G$1" pin="VCP" pad="13"/>
-<connect gate="G$1" pin="VREG" pad="14"/>
+<connect gate="G$1" pin="CP1" pad="11"/>
+<connect gate="G$1" pin="CP2" pad="12"/>
+<connect gate="G$1" pin="ENABLE" pad="6"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="GND1" pad="13"/>
+<connect gate="G$1" pin="MODE" pad="2"/>
+<connect gate="G$1" pin="NC" pad="16"/>
+<connect gate="G$1" pin="NFAULT" pad="1"/>
+<connect gate="G$1" pin="NSLEEP" pad="5"/>
+<connect gate="G$1" pin="OUT+" pad="7"/>
+<connect gate="G$1" pin="OUT-" pad="10"/>
+<connect gate="G$1" pin="PHASE" pad="3"/>
+<connect gate="G$1" pin="SENSE" pad="8"/>
+<connect gate="G$1" pin="VBB" pad="9"/>
+<connect gate="G$1" pin="VCP" pad="14"/>
+<connect gate="G$1" pin="VREG" pad="15"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3203,79 +3203,6 @@ transient-voltage suppressor</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="jumper">
-<description>&lt;b&gt;Jumpers&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="JP2Q">
-<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
-<wire x1="-2.54" y1="-2.159" x2="-2.54" y2="2.159" width="0.1524" layer="21"/>
-<wire x1="-0.381" y1="2.54" x2="0" y2="2.159" width="0.1524" layer="21"/>
-<wire x1="0" y1="2.159" x2="0.381" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="0.381" y1="2.54" x2="2.159" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="2.159" x2="2.159" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="2.159" x2="2.54" y2="-2.159" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-2.159" x2="2.159" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="2.159" y1="-2.54" x2="0.381" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="0" y1="-2.159" x2="0.381" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="0" y1="-2.159" x2="-0.381" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="2.159" x2="-2.159" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-2.159" y1="2.54" x2="-0.381" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-2.159" x2="-2.159" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-2.159" y1="-2.54" x2="-0.381" y2="-2.54" width="0.1524" layer="21"/>
-<pad name="1" x="-1.27" y="-1.27" drill="0.9144" shape="octagon"/>
-<pad name="2" x="-1.27" y="1.27" drill="0.9144" shape="octagon"/>
-<pad name="3" x="1.27" y="-1.27" drill="0.9144" shape="octagon"/>
-<pad name="4" x="1.27" y="1.27" drill="0.9144" shape="octagon"/>
-<text x="-1.778" y="-4.191" size="1.27" layer="21" ratio="10">1</text>
-<text x="0.762" y="-4.191" size="1.27" layer="21" ratio="10">2</text>
-<text x="-2.54" y="3.048" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="4.445" y="-2.54" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
-<rectangle x1="-1.5748" y1="0.9652" x2="-0.9652" y2="1.5748" layer="51"/>
-<rectangle x1="0.9652" y1="0.9652" x2="1.5748" y2="1.5748" layer="51"/>
-<rectangle x1="0.9652" y1="-1.5748" x2="1.5748" y2="-0.9652" layer="51"/>
-<rectangle x1="-1.5748" y1="-1.5748" x2="-0.9652" y2="-0.9652" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="JP2E">
-<wire x1="0" y1="0" x2="0" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.4064" layer="94"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="1.27" width="0.4064" layer="94"/>
-<wire x1="-0.635" y1="0" x2="3.175" y2="0" width="0.4064" layer="94"/>
-<wire x1="3.175" y1="0" x2="3.175" y2="0.635" width="0.4064" layer="94"/>
-<wire x1="3.175" y1="0.635" x2="-0.635" y2="0.635" width="0.4064" layer="94"/>
-<wire x1="-0.635" y1="0.635" x2="-0.635" y2="0" width="0.4064" layer="94"/>
-<text x="-1.27" y="0" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="5.715" y="0" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="1" x="0" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="2" x="2.54" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="JP2QE" prefix="JP" uservalue="yes">
-<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
-<gates>
-<gate name="-1" symbol="JP2E" x="2.54" y="0" addlevel="always"/>
-<gate name="-2" symbol="JP2E" x="12.7" y="0" addlevel="always"/>
-</gates>
-<devices>
-<device name="" package="JP2Q">
-<connects>
-<connect gate="-1" pin="1" pad="1"/>
-<connect gate="-1" pin="2" pad="2"/>
-<connect gate="-2" pin="1" pad="3"/>
-<connect gate="-2" pin="2" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="Resistor">
 <packages>
 <package name="0805">
@@ -4101,7 +4028,7 @@ Source: http://www.irf.com/product-info/datasheets/data/irf7389.pdf</description
 <part name="X4" library="Connector" deviceset="RIA_3POL" device=""/>
 <part name="X5" library="Connector" deviceset="RIA_2POL" device=""/>
 <part name="U$3" library="DRV-8800" deviceset="DRV-8800" device=""/>
-<part name="G1" library="Crystals" deviceset="CRYTAL" device="" value="8MHz"/>
+<part name="G1" library="Crystals" deviceset="CRYTAL" device="HC18U-V" value="8MHz"/>
 <part name="X6" library="Connector" deviceset="JUMP1-4" device=""/>
 <part name="U$7" library="PowerSupply" deviceset="+24V" device=""/>
 <part name="U$8" library="PowerSupply" deviceset="+24V" device=""/>
@@ -4119,7 +4046,6 @@ Source: http://www.irf.com/product-info/datasheets/data/irf7389.pdf</description
 <part name="D1" library="Diode" deviceset="1N4007" device="" value="1N4007"/>
 <part name="D2" library="Diode" deviceset="P6KEXXC" device="" value="1,5KB33CA"/>
 <part name="VDD6" library="supply1" deviceset="VDD" device="" value="+5V"/>
-<part name="JP3" library="jumper" deviceset="JP2QE" device=""/>
 <part name="R4" library="Resistor" deviceset="0805" device="" value="39k"/>
 <part name="R5" library="Resistor" deviceset="0805" device="" value="10k"/>
 <part name="R6" library="Resistor" deviceset="0805" device="" value="39k"/>
@@ -4139,8 +4065,6 @@ Source: http://www.irf.com/product-info/datasheets/data/irf7389.pdf</description
 <part name="R9" library="Resistor" deviceset="0805" device="" value="2k7"/>
 <part name="R10" library="Resistor" deviceset="0805" device="" value="2k7"/>
 <part name="U$22" library="PowerSupply" deviceset="GND" device=""/>
-<part name="JP1" library="jumper" deviceset="JP2QE" device=""/>
-<part name="JP2" library="jumper" deviceset="JP2QE" device=""/>
 <part name="H1" library="Holes" deviceset="MOUNT-PAD-ROUND" device="3.0"/>
 <part name="H2" library="Holes" deviceset="MOUNT-PAD-ROUND" device="3.0"/>
 <part name="U$23" library="PowerSupply" deviceset="GND" device=""/>
@@ -4213,6 +4137,10 @@ Source: http://www.irf.com/product-info/datasheets/data/irf7389.pdf</description
 <part name="U$48" library="PowerSupply" deviceset="GND" device=""/>
 <part name="U$49" library="PowerSupply" deviceset="+24V" device=""/>
 <part name="H3" library="Holes" deviceset="MOUNT-HOLE" device="3.2"/>
+<part name="X9" library="Connector" deviceset="JUMP1-4" device=""/>
+<part name="X10" library="Connector" deviceset="JUMP1-4" device=""/>
+<part name="X11" library="Connector" deviceset="JUMP1-4" device=""/>
+<part name="VDD8" library="supply1" deviceset="VDD" device="" value="+5V"/>
 </parts>
 <sheets>
 <sheet>
@@ -4258,12 +4186,12 @@ Source: http://www.irf.com/product-info/datasheets/data/irf7389.pdf</description
 <instance part="C7" gate="G$1" x="22.225" y="96.52" rot="R180"/>
 <instance part="VDD4" gate="G$1" x="22.225" y="111.76"/>
 <instance part="C8" gate="G$1" x="29.845" y="96.52" rot="R180"/>
-<instance part="U$17" gate="G$1" x="160.02" y="195.58"/>
+<instance part="U$17" gate="G$1" x="160.02" y="193.04"/>
 <instance part="VDD5" gate="G$1" x="144.78" y="210.82"/>
 <instance part="U$18" gate="G$1" x="13.335" y="91.44"/>
 <instance part="U$19" gate="G$1" x="29.845" y="83.82"/>
 <instance part="U$20" gate="G$1" x="57.785" y="78.105"/>
-<instance part="U$2" gate="G$1" x="147.32" y="187.96"/>
+<instance part="U$2" gate="G$1" x="147.32" y="185.42"/>
 <instance part="X2" gate="G$1" x="276.225" y="73.66" smashed="yes">
 <attribute name="VALUE" x="272.415" y="62.865" size="1.778" layer="96"/>
 <attribute name="NAME" x="272.415" y="82.55" size="1.778" layer="95"/>
@@ -4309,14 +4237,6 @@ Source: http://www.irf.com/product-info/datasheets/data/irf7389.pdf</description
 <attribute name="VALUE" x="268.605" y="33.909" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="VDD6" gate="G$1" x="341.63" y="185.42"/>
-<instance part="JP3" gate="-1" x="316.865" y="177.8" smashed="yes">
-<attribute name="NAME" x="315.595" y="180.975" size="1.778" layer="95"/>
-<attribute name="VALUE" x="322.58" y="177.8" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="JP3" gate="-2" x="327.025" y="177.8" smashed="yes">
-<attribute name="NAME" x="325.755" y="180.975" size="1.778" layer="95"/>
-<attribute name="VALUE" x="332.74" y="177.8" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="R4" gate="G$1" x="236.855" y="53.34" smashed="yes" rot="R90">
 <attribute name="NAME" x="238.125" y="53.34" size="1.524" layer="95"/>
 <attribute name="VALUE" x="238.125" y="51.1175" size="1.524" layer="96"/>
@@ -4335,9 +4255,9 @@ Source: http://www.irf.com/product-info/datasheets/data/irf7389.pdf</description
 </instance>
 <instance part="U$16" gate="G$1" x="236.855" y="30.48" smashed="yes"/>
 <instance part="U$21" gate="G$1" x="244.475" y="30.48" smashed="yes"/>
-<instance part="R2" gate="G$1" x="279.4" y="203.2" smashed="yes" rot="R90">
-<attribute name="NAME" x="280.67" y="203.3016" size="1.778" layer="95"/>
-<attribute name="VALUE" x="280.67" y="200.279" size="1.778" layer="96"/>
+<instance part="R2" gate="G$1" x="279.4" y="200.66" smashed="yes" rot="R90">
+<attribute name="NAME" x="280.67" y="200.7616" size="1.778" layer="95"/>
+<attribute name="VALUE" x="280.67" y="197.739" size="1.778" layer="96"/>
 </instance>
 <instance part="S2" gate="G$1" x="216.535" y="81.28" smashed="yes" rot="R90">
 <attribute name="NAME" x="211.455" y="79.248" size="1.27" layer="95" font="vector"/>
@@ -4361,7 +4281,7 @@ Source: http://www.irf.com/product-info/datasheets/data/irf7389.pdf</description
 <attribute name="NAME" x="72.39" y="245.618" size="1.524" layer="95" font="vector"/>
 <attribute name="VALUE" x="72.39" y="240.538" size="1.524" layer="96" font="vector"/>
 </instance>
-<instance part="C2" gate="G$1" x="141.605" y="195.58" rot="R180"/>
+<instance part="C2" gate="G$1" x="141.605" y="193.04" rot="R180"/>
 <instance part="C4" gate="G$1" x="264.795" y="193.04" smashed="yes">
 <attribute name="NAME" x="260.35" y="193.675" size="1.524" layer="95" font="vector"/>
 <attribute name="VALUE" x="266.7" y="193.802" size="1.524" layer="96" font="vector"/>
@@ -4375,10 +4295,6 @@ Source: http://www.irf.com/product-info/datasheets/data/irf7389.pdf</description
 <attribute name="VALUE" x="190.5" y="70.1675" size="1.524" layer="96"/>
 </instance>
 <instance part="U$22" gate="G$1" x="196.215" y="62.23" smashed="yes"/>
-<instance part="JP1" gate="-1" x="336.55" y="120.65" rot="R90"/>
-<instance part="JP1" gate="-2" x="336.55" y="131.445" rot="R90"/>
-<instance part="JP2" gate="-1" x="337.185" y="142.24" rot="R90"/>
-<instance part="JP2" gate="-2" x="337.185" y="152.4" rot="R90"/>
 <instance part="H1" gate="G$1" x="100.33" y="260.35"/>
 <instance part="H2" gate="G$1" x="136.525" y="261.62"/>
 <instance part="U$23" gate="G$1" x="100.33" y="239.395"/>
@@ -4481,9 +4397,9 @@ Source: http://www.irf.com/product-info/datasheets/data/irf7389.pdf</description
 <attribute name="NAME" x="307.34" y="71.755" size="1.524" layer="95" rot="R180"/>
 <attribute name="VALUE" x="307.34" y="77.1525" size="1.524" layer="96" rot="R180"/>
 </instance>
-<instance part="R26" gate="G$1" x="314.96" y="71.12" smashed="yes" rot="R180">
-<attribute name="NAME" x="317.5" y="69.215" size="1.524" layer="95" rot="R180"/>
-<attribute name="VALUE" x="317.5" y="74.6125" size="1.524" layer="96" rot="R180"/>
+<instance part="R26" gate="G$1" x="313.055" y="71.12" smashed="yes" rot="R180">
+<attribute name="NAME" x="315.595" y="69.215" size="1.524" layer="95" rot="R180"/>
+<attribute name="VALUE" x="315.595" y="74.6125" size="1.524" layer="96" rot="R180"/>
 </instance>
 <instance part="U$34" gate="G$2" x="343.535" y="87.63" smashed="yes" rot="MR0">
 <attribute name="NAME" x="350.52" y="93.345" size="1.778" layer="95" rot="MR0"/>
@@ -4531,10 +4447,7 @@ Source: http://www.irf.com/product-info/datasheets/data/irf7389.pdf</description
 <instance part="X8" gate=".2" x="128.27" y="64.77" rot="R270"/>
 <instance part="X8" gate=".3" x="132.715" y="64.77" rot="R270"/>
 <instance part="X8" gate=".4" x="137.16" y="64.77" rot="R270"/>
-<instance part="X8" gate=".5" x="141.605" y="64.77" rot="R270"/>
 <instance part="X8" gate=".6" x="146.05" y="64.77" rot="R270"/>
-<instance part="X8" gate=".7" x="150.495" y="64.77" rot="R270"/>
-<instance part="X8" gate=".8" x="154.94" y="64.77" rot="R270"/>
 <instance part="X8" gate=".9" x="159.385" y="64.77" rot="R270"/>
 <instance part="X8" gate=".10" x="163.83" y="64.77" rot="R270"/>
 <instance part="U$43" gate="G$1" x="128.27" y="45.085"/>
@@ -4552,6 +4465,10 @@ Source: http://www.irf.com/product-info/datasheets/data/irf7389.pdf</description
 <instance part="U$48" gate="G$1" x="186.055" y="151.765" rot="R270"/>
 <instance part="U$49" gate="G$1" x="234.95" y="241.935"/>
 <instance part="H3" gate="G$1" x="109.22" y="248.285"/>
+<instance part="X9" gate="G$1" x="335.28" y="149.225" rot="R90"/>
+<instance part="X10" gate="G$1" x="335.28" y="127.635" rot="R90"/>
+<instance part="X11" gate="G$1" x="321.945" y="179.705"/>
+<instance part="VDD8" gate="G$1" x="113.665" y="133.35"/>
 </instances>
 <busses>
 </busses>
@@ -4599,12 +4516,12 @@ Source: http://www.irf.com/product-info/datasheets/data/irf7389.pdf</description
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="GND"/>
-<wire x1="147.32" y1="190.5" x2="147.32" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="187.96" x2="147.32" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="U$17" gate="G$1" pin="GND"/>
-<wire x1="147.32" y1="193.04" x2="152.4" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="190.5" x2="152.4" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="141.605" y1="190.5" x2="147.32" y2="190.5" width="0.1524" layer="91"/>
-<junction x="147.32" y="190.5"/>
+<wire x1="141.605" y1="187.96" x2="147.32" y2="187.96" width="0.1524" layer="91"/>
+<junction x="147.32" y="187.96"/>
 </segment>
 <segment>
 <pinref part="U$9" gate="G$1" pin="GND"/>
@@ -4863,13 +4780,13 @@ Source: http://www.irf.com/product-info/datasheets/data/irf7389.pdf</description
 </segment>
 <segment>
 <pinref part="VDD5" gate="G$1" pin="VDD"/>
-<wire x1="144.78" y1="208.28" x2="144.78" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="208.28" x2="144.78" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="U$17" gate="G$1" pin="VCC"/>
-<wire x1="144.78" y1="200.66" x2="144.78" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="198.12" x2="152.4" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="198.12" x2="144.78" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="195.58" x2="152.4" y2="195.58" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="141.605" y1="200.66" x2="144.78" y2="200.66" width="0.1524" layer="91"/>
-<junction x="144.78" y="200.66"/>
+<wire x1="141.605" y1="198.12" x2="144.78" y2="198.12" width="0.1524" layer="91"/>
+<junction x="144.78" y="198.12"/>
 </segment>
 <segment>
 <pinref part="VDD3" gate="G$1" pin="VDD"/>
@@ -4955,6 +4872,17 @@ Source: http://www.irf.com/product-info/datasheets/data/irf7389.pdf</description
 <wire x1="137.16" y1="59.69" x2="137.16" y2="57.785" width="0.1524" layer="91"/>
 <label x="137.16" y="57.785" size="1.778" layer="95" font="vector" rot="R270" xref="yes"/>
 </segment>
+<segment>
+<pinref part="VDD15" gate="G$1" pin="VDD"/>
+<pinref part="U$34" gate="G$2" pin="A"/>
+<wire x1="353.695" y1="99.695" x2="353.695" y2="90.17" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="(ADC7)PA7"/>
+<pinref part="VDD8" gate="G$1" pin="VDD"/>
+<wire x1="106.045" y1="127" x2="113.665" y2="127" width="0.1524" layer="91"/>
+<wire x1="113.665" y1="127" x2="113.665" y2="130.81" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="RESET" class="0">
 <segment>
@@ -5033,37 +4961,20 @@ Source: http://www.irf.com/product-info/datasheets/data/irf7389.pdf</description
 <wire x1="240.665" y1="160.02" x2="240.665" y2="181.61" width="0.1524" layer="91"/>
 <wire x1="240.665" y1="181.61" x2="297.18" y2="181.61" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="181.61" x2="297.18" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="170.18" x2="316.865" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="316.865" y1="170.18" x2="316.865" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="170.18" x2="319.405" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="319.405" y1="170.18" x2="319.405" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="X1" gate="G$1" pin="4"/>
-<wire x1="316.865" y1="167.64" x2="329.565" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="329.565" y1="167.64" x2="346.71" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="329.565" y1="167.64" x2="329.565" y2="170.18" width="0.1524" layer="91"/>
-<junction x="329.565" y="167.64"/>
-<pinref part="JP3" gate="-1" pin="1"/>
-<wire x1="316.865" y1="170.18" x2="316.865" y2="175.26" width="0.1524" layer="91"/>
-<junction x="316.865" y="170.18"/>
-<pinref part="JP3" gate="-2" pin="2"/>
-<wire x1="329.565" y1="170.18" x2="329.565" y2="175.26" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<wire x1="319.405" y1="165.1" x2="327.025" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="327.025" y1="165.1" x2="327.025" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="X1" gate="G$1" pin="5"/>
-<wire x1="327.025" y1="165.1" x2="346.71" y2="165.1" width="0.1524" layer="91"/>
-<junction x="327.025" y="165.1"/>
-<wire x1="319.405" y1="170.18" x2="319.405" y2="165.1" width="0.1524" layer="91"/>
-<junction x="319.405" y="165.1"/>
-<pinref part="JP3" gate="-1" pin="2"/>
-<wire x1="319.405" y1="175.26" x2="319.405" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="327.025" y1="170.18" x2="327.025" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="-2" pin="1"/>
-<wire x1="327.025" y1="177.8" x2="327.025" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="OUT-"/>
-<wire x1="279.4" y1="157.48" x2="319.405" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="319.405" y1="157.48" x2="319.405" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="319.405" y1="167.64" x2="327.025" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="327.025" y1="167.64" x2="346.71" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="327.025" y1="167.64" x2="327.025" y2="170.18" width="0.1524" layer="91"/>
+<junction x="327.025" y="167.64"/>
+<wire x1="319.405" y1="170.18" x2="319.405" y2="175.26" width="0.1524" layer="91"/>
+<junction x="319.405" y="170.18"/>
+<wire x1="327.025" y1="170.18" x2="327.025" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="X11" gate="G$1" pin="1"/>
+<wire x1="319.405" y1="179.705" x2="319.405" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="X11" gate="G$1" pin="4"/>
+<wire x1="327.025" y1="179.705" x2="327.025" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -5118,16 +5029,11 @@ Source: http://www.irf.com/product-info/datasheets/data/irf7389.pdf</description
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="F2" gate="1" pin="1"/>
-<wire x1="279.4" y1="208.28" x2="279.4" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="208.28" x2="157.48" y2="208.28" width="0.1524" layer="91"/>
-<junction x="279.4" y="208.28"/>
+<wire x1="279.4" y1="205.74" x2="279.4" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="205.74" x2="157.48" y2="205.74" width="0.1524" layer="91"/>
+<junction x="279.4" y="205.74"/>
 <pinref part="U$17" gate="G$1" pin="RS+"/>
-<wire x1="157.48" y1="208.28" x2="157.48" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="208.28" x2="130.81" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="130.81" y1="208.28" x2="130.81" y2="127" width="0.1524" layer="91"/>
-<junction x="157.48" y="208.28"/>
-<pinref part="IC1" gate="G$1" pin="(ADC7)PA7"/>
-<wire x1="106.045" y1="127" x2="130.81" y2="127" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="205.74" x2="157.48" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -5170,16 +5076,19 @@ Source: http://www.irf.com/product-info/datasheets/data/irf7389.pdf</description
 <wire x1="213.995" y1="106.045" x2="344.805" y2="106.045" width="0.1524" layer="91"/>
 <wire x1="344.805" y1="106.045" x2="344.805" y2="117.475" width="0.1524" layer="91"/>
 <wire x1="344.805" y1="117.475" x2="344.805" y2="118.11" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="-2" pin="1"/>
-<wire x1="344.805" y1="118.11" x2="344.805" y2="120.65" width="0.1524" layer="91"/>
-<wire x1="344.805" y1="120.65" x2="344.805" y2="131.445" width="0.1524" layer="91"/>
-<wire x1="344.805" y1="131.445" x2="339.09" y2="131.445" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="-1" pin="1"/>
-<wire x1="339.09" y1="120.65" x2="344.805" y2="120.65" width="0.1524" layer="91"/>
-<junction x="344.805" y="120.65"/>
+<wire x1="344.805" y1="118.11" x2="344.805" y2="125.095" width="0.1524" layer="91"/>
+<wire x1="344.805" y1="125.095" x2="344.805" y2="130.175" width="0.1524" layer="91"/>
+<wire x1="344.805" y1="130.175" x2="339.09" y2="130.175" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="125.095" x2="344.805" y2="125.095" width="0.1524" layer="91"/>
+<junction x="344.805" y="125.095"/>
 <pinref part="IC1" gate="G$1" pin="(TOSC1)PC6"/>
 <wire x1="106.045" y1="78.74" x2="196.215" y2="78.74" width="0.1524" layer="91"/>
 <junction x="196.215" y="78.74"/>
+<pinref part="X10" gate="G$1" pin="3"/>
+<wire x1="339.09" y1="130.175" x2="335.28" y2="130.175" width="0.1524" layer="91"/>
+<pinref part="X10" gate="G$1" pin="1"/>
+<wire x1="335.28" y1="125.095" x2="337.185" y2="125.095" width="0.1524" layer="91"/>
+<wire x1="337.185" y1="125.095" x2="340.36" y2="125.095" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -5188,20 +5097,22 @@ Source: http://www.irf.com/product-info/datasheets/data/irf7389.pdf</description
 <wire x1="340.995" y1="172.72" x2="340.995" y2="171.45" width="0.1524" layer="91"/>
 <pinref part="X1" gate="G$1" pin="2"/>
 <wire x1="346.71" y1="172.72" x2="343.535" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="-2" pin="2"/>
 <wire x1="343.535" y1="172.72" x2="340.995" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="339.725" y1="154.94" x2="340.995" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="340.995" y1="154.94" x2="340.995" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="-2" pin="2"/>
-<wire x1="340.995" y1="154.94" x2="340.995" y2="133.985" width="0.1524" layer="91"/>
-<wire x1="340.995" y1="133.985" x2="339.09" y2="133.985" width="0.1524" layer="91"/>
-<junction x="340.995" y="154.94"/>
+<wire x1="339.725" y1="154.305" x2="340.995" y2="154.305" width="0.1524" layer="91"/>
+<wire x1="340.995" y1="154.305" x2="340.995" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="340.995" y1="154.305" x2="340.995" y2="132.715" width="0.1524" layer="91"/>
+<wire x1="340.995" y1="132.715" x2="339.725" y2="132.715" width="0.1524" layer="91"/>
+<junction x="340.995" y="154.305"/>
 <wire x1="343.535" y1="172.72" x2="343.535" y2="205.74" width="0.1524" layer="91"/>
 <junction x="343.535" y="172.72"/>
 <wire x1="343.535" y1="205.74" x2="343.535" y2="251.46" width="0.1524" layer="91"/>
 <pinref part="X7" gate=".2" pin="1"/>
 <wire x1="343.535" y1="251.46" x2="235.585" y2="251.46" width="0.1524" layer="91"/>
 <wire x1="235.585" y1="251.46" x2="235.585" y2="260.35" width="0.1524" layer="91"/>
+<pinref part="X9" gate="G$1" pin="4"/>
+<wire x1="335.28" y1="154.305" x2="339.725" y2="154.305" width="0.1524" layer="91"/>
+<pinref part="X10" gate="G$1" pin="4"/>
+<wire x1="335.28" y1="132.715" x2="339.725" y2="132.715" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$25" class="0">
@@ -5211,35 +5122,19 @@ Source: http://www.irf.com/product-info/datasheets/data/irf7389.pdf</description
 <wire x1="189.23" y1="81.28" x2="189.23" y2="77.47" width="0.1524" layer="91"/>
 <wire x1="189.23" y1="108.585" x2="342.265" y2="108.585" width="0.1524" layer="91"/>
 <wire x1="342.265" y1="108.585" x2="342.265" y2="132.715" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="-1" pin="1"/>
-<wire x1="342.265" y1="132.715" x2="342.265" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="342.265" y1="142.24" x2="339.725" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="-2" pin="1"/>
-<wire x1="342.265" y1="142.24" x2="342.265" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="342.265" y1="152.4" x2="339.725" y2="152.4" width="0.1524" layer="91"/>
-<junction x="342.265" y="142.24"/>
+<wire x1="342.265" y1="132.715" x2="342.265" y2="146.685" width="0.1524" layer="91"/>
+<wire x1="342.265" y1="146.685" x2="340.36" y2="146.685" width="0.1524" layer="91"/>
+<wire x1="342.265" y1="146.685" x2="342.265" y2="151.765" width="0.1524" layer="91"/>
+<wire x1="342.265" y1="151.765" x2="339.725" y2="151.765" width="0.1524" layer="91"/>
+<junction x="342.265" y="146.685"/>
 <pinref part="IC1" gate="G$1" pin="(TOSC2)PC7"/>
 <wire x1="106.045" y1="81.28" x2="189.23" y2="81.28" width="0.1524" layer="91"/>
 <junction x="189.23" y="81.28"/>
-</segment>
-</net>
-<net name="N$19" class="0">
-<segment>
-<pinref part="X1" gate="G$1" pin="3"/>
-<wire x1="343.535" y1="154.94" x2="343.535" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="343.535" y1="170.18" x2="346.71" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="-1" pin="2"/>
-<wire x1="343.535" y1="154.94" x2="343.535" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="343.535" y1="144.78" x2="339.725" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="-1" pin="2"/>
-<wire x1="343.535" y1="144.78" x2="343.535" y2="123.19" width="0.1524" layer="91"/>
-<wire x1="343.535" y1="123.19" x2="339.09" y2="123.19" width="0.1524" layer="91"/>
-<junction x="343.535" y="144.78"/>
-<pinref part="X7" gate=".1" pin="1"/>
-<wire x1="240.665" y1="260.35" x2="240.665" y2="255.27" width="0.1524" layer="91"/>
-<wire x1="240.665" y1="255.27" x2="346.71" y2="255.27" width="0.1524" layer="91"/>
-<wire x1="346.71" y1="255.27" x2="346.71" y2="170.18" width="0.1524" layer="91"/>
-<junction x="346.71" y="170.18"/>
+<pinref part="X9" gate="G$1" pin="3"/>
+<wire x1="339.725" y1="151.765" x2="335.28" y2="151.765" width="0.1524" layer="91"/>
+<pinref part="X9" gate="G$1" pin="1"/>
+<wire x1="340.36" y1="146.685" x2="335.915" y2="146.685" width="0.1524" layer="91"/>
+<wire x1="335.915" y1="146.685" x2="335.28" y2="146.685" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">
@@ -5342,11 +5237,10 @@ Source: http://www.irf.com/product-info/datasheets/data/irf7389.pdf</description
 <wire x1="182.245" y1="96.52" x2="182.245" y2="112.395" width="0.1524" layer="91"/>
 <wire x1="182.245" y1="112.395" x2="232.41" y2="112.395" width="0.1524" layer="91"/>
 <wire x1="232.41" y1="112.395" x2="232.41" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="232.41" y1="142.24" x2="236.22" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="R16" gate="G$1" pin="1"/>
-<wire x1="236.22" y1="142.24" x2="234.315" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="(SS)PB4"/>
 <wire x1="106.045" y1="96.52" x2="182.245" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="R16" gate="G$1" pin="1"/>
+<wire x1="232.41" y1="142.24" x2="234.315" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$43" class="0">
@@ -5362,15 +5256,6 @@ Source: http://www.irf.com/product-info/datasheets/data/irf7389.pdf</description
 <pinref part="U$28" gate="G$3" pin="A"/>
 <pinref part="R18" gate="G$1" pin="1"/>
 <wire x1="172.085" y1="121.92" x2="172.085" y2="119.38" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$45" class="0">
-<segment>
-<pinref part="R19" gate="G$1" pin="2"/>
-<wire x1="187.96" y1="116.205" x2="193.675" y2="116.205" width="0.1524" layer="91"/>
-<pinref part="U$28" gate="G$4" pin="A"/>
-<wire x1="197.485" y1="130.175" x2="193.675" y2="130.175" width="0.1524" layer="91"/>
-<wire x1="193.675" y1="130.175" x2="193.675" y2="116.205" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$42" class="0">
@@ -5425,7 +5310,7 @@ Source: http://www.irf.com/product-info/datasheets/data/irf7389.pdf</description
 <net name="N$54" class="0">
 <segment>
 <pinref part="X2" gate="G$1" pin="4"/>
-<wire x1="283.845" y1="71.12" x2="309.88" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="283.845" y1="71.12" x2="307.975" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="R26" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -5537,7 +5422,7 @@ Source: http://www.irf.com/product-info/datasheets/data/irf7389.pdf</description
 <net name="N$62" class="0">
 <segment>
 <pinref part="R26" gate="G$1" pin="1"/>
-<wire x1="320.04" y1="71.12" x2="330.2" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="318.135" y1="71.12" x2="330.2" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="330.2" y1="71.12" x2="330.2" y2="62.992" width="0.1524" layer="91"/>
 <pinref part="U$38" gate="G$1" pin="D1"/>
 </segment>
@@ -5549,13 +5434,6 @@ Source: http://www.irf.com/product-info/datasheets/data/irf7389.pdf</description
 <wire x1="297.815" y1="68.58" x2="297.815" y2="90.17" width="0.1524" layer="91"/>
 <pinref part="U$34" gate="G$2" pin="COL"/>
 <wire x1="297.815" y1="90.17" x2="335.915" y2="90.17" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$57" class="0">
-<segment>
-<pinref part="U$34" gate="G$2" pin="A"/>
-<wire x1="353.695" y1="99.695" x2="353.695" y2="90.17" width="0.1524" layer="91"/>
-<pinref part="VDD15" gate="G$1" pin="VDD"/>
 </segment>
 </net>
 <net name="N$58" class="0">
@@ -5592,7 +5470,6 @@ Source: http://www.irf.com/product-info/datasheets/data/irf7389.pdf</description
 <wire x1="84.455" y1="175.895" x2="74.93" y2="175.895" width="0.1524" layer="91"/>
 <wire x1="74.93" y1="175.895" x2="74.93" y2="174.752" width="0.1524" layer="91"/>
 <pinref part="U$35" gate="G$2" pin="D1"/>
-<wire x1="74.93" y1="174.752" x2="74.93" y2="174.625" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$70" class="0">
@@ -5652,17 +5529,17 @@ Source: http://www.irf.com/product-info/datasheets/data/irf7389.pdf</description
 </net>
 <net name="N$32" class="0">
 <segment>
-<wire x1="172.085" y1="203.2" x2="175.895" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="172.085" y1="200.66" x2="175.895" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="U$17" gate="G$1" pin="RS-"/>
-<wire x1="162.56" y1="203.2" x2="172.085" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="175.895" y1="203.2" x2="261.62" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="261.62" y1="203.2" x2="261.62" y2="198.755" width="0.1524" layer="91"/>
-<wire x1="261.62" y1="198.755" x2="261.62" y2="197.485" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="200.66" x2="172.085" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="175.895" y1="200.66" x2="261.62" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="200.66" x2="261.62" y2="198.755" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="198.755" x2="261.62" y2="194.945" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="VBB"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="279.4" y1="177.8" x2="279.4" y2="188.595" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="188.595" x2="279.4" y2="197.485" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="197.485" x2="279.4" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="188.595" x2="279.4" y2="194.945" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="194.945" x2="279.4" y2="195.58" width="0.1524" layer="91"/>
 <junction x="279.4" y="188.595"/>
 <pinref part="C13" gate="G$1" pin="1"/>
 <wire x1="272.415" y1="188.595" x2="279.4" y2="188.595" width="0.1524" layer="91"/>
@@ -5671,8 +5548,8 @@ Source: http://www.irf.com/product-info/datasheets/data/irf7389.pdf</description
 <pinref part="C14" gate="G$1" pin="2"/>
 <wire x1="269.24" y1="183.515" x2="272.415" y2="183.515" width="0.1524" layer="91"/>
 <wire x1="272.415" y1="183.515" x2="272.415" y2="188.595" width="0.1524" layer="91"/>
-<wire x1="261.62" y1="197.485" x2="279.4" y2="197.485" width="0.1524" layer="91"/>
-<junction x="279.4" y="197.485"/>
+<wire x1="261.62" y1="194.945" x2="279.4" y2="194.945" width="0.1524" layer="91"/>
+<junction x="279.4" y="194.945"/>
 <pinref part="C4" gate="G$1" pin="+"/>
 <wire x1="269.875" y1="193.04" x2="272.415" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="272.415" y1="193.04" x2="272.415" y2="188.595" width="0.1524" layer="91"/>
@@ -5682,8 +5559,8 @@ Source: http://www.irf.com/product-info/datasheets/data/irf7389.pdf</description
 <net name="N$10" class="0">
 <segment>
 <pinref part="U$17" gate="G$1" pin="OUT"/>
-<wire x1="167.64" y1="195.58" x2="170.18" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="195.58" x2="170.18" y2="184.15" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="193.04" x2="170.18" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="193.04" x2="170.18" y2="184.15" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="184.15" x2="132.715" y2="184.15" width="0.1524" layer="91"/>
 <wire x1="132.715" y1="184.15" x2="132.715" y2="176.53" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="(ADC6)PA6"/>
@@ -5815,6 +5692,56 @@ Source: http://www.irf.com/product-info/datasheets/data/irf7389.pdf</description
 <pinref part="IC1" gate="G$1" pin="(SCK)PB7"/>
 <wire x1="106.045" y1="104.14" x2="154.305" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="154.305" y1="104.14" x2="154.305" y2="120.015" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$22" class="0">
+<segment>
+<pinref part="X1" gate="G$1" pin="3"/>
+<wire x1="343.535" y1="127.635" x2="339.09" y2="127.635" width="0.1524" layer="91"/>
+<wire x1="343.535" y1="149.225" x2="339.725" y2="149.225" width="0.1524" layer="91"/>
+<wire x1="343.535" y1="149.225" x2="343.535" y2="127.635" width="0.1524" layer="91"/>
+<junction x="343.535" y="149.225"/>
+<wire x1="343.535" y1="149.225" x2="343.535" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="343.535" y1="170.18" x2="345.44" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="X7" gate=".1" pin="1"/>
+<wire x1="345.44" y1="170.18" x2="346.71" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="240.665" y1="260.35" x2="240.665" y2="255.27" width="0.1524" layer="91"/>
+<wire x1="240.665" y1="255.27" x2="345.44" y2="255.27" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="170.18" x2="345.44" y2="255.27" width="0.1524" layer="91"/>
+<junction x="345.44" y="170.18"/>
+<pinref part="X9" gate="G$1" pin="2"/>
+<wire x1="339.725" y1="149.225" x2="335.28" y2="149.225" width="0.1524" layer="91"/>
+<pinref part="X10" gate="G$1" pin="2"/>
+<wire x1="335.28" y1="127.635" x2="339.09" y2="127.635" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="U$28" gate="G$4" pin="A"/>
+<wire x1="197.485" y1="130.175" x2="193.675" y2="130.175" width="0.1524" layer="91"/>
+<pinref part="R19" gate="G$1" pin="2"/>
+<wire x1="187.96" y1="116.205" x2="193.675" y2="116.205" width="0.1524" layer="91"/>
+<wire x1="193.675" y1="130.175" x2="193.675" y2="116.205" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$30" class="0">
+<segment>
+<pinref part="X11" gate="G$1" pin="2"/>
+<wire x1="321.945" y1="179.705" x2="321.945" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="321.945" y1="165.1" x2="324.485" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="324.485" y1="165.1" x2="324.485" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="X1" gate="G$1" pin="5"/>
+<wire x1="324.485" y1="165.1" x2="346.71" y2="165.1" width="0.1524" layer="91"/>
+<junction x="324.485" y="165.1"/>
+<wire x1="321.945" y1="170.815" x2="321.945" y2="165.1" width="0.1524" layer="91"/>
+<junction x="321.945" y="165.1"/>
+<wire x1="321.945" y1="175.26" x2="321.945" y2="170.815" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="OUT-"/>
+<wire x1="279.4" y1="157.48" x2="321.945" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="321.945" y1="157.48" x2="321.945" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="324.485" y1="175.26" x2="324.485" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="X11" gate="G$1" pin="3"/>
+<wire x1="324.485" y1="179.705" x2="324.485" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

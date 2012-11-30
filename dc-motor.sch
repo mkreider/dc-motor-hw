@@ -5193,13 +5193,21 @@ Source: http://www.irf.com/product-info/datasheets/data/irf7389.pdf</description
 <junction x="203.2" y="175.26"/>
 </segment>
 </net>
-<net name="N$33" class="0">
+<net name="NFAULT" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="NFAULT"/>
 <wire x1="279.4" y1="165.1" x2="295.91" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="295.91" y1="165.1" x2="307.975" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="R14" gate="G$1" pin="1"/>
 <wire x1="307.975" y1="165.1" x2="307.975" y2="176.53" width="0.1524" layer="91"/>
+<wire x1="307.975" y1="176.53" x2="311.785" y2="176.53" width="0.1524" layer="91"/>
+<junction x="307.975" y="176.53"/>
+<label x="311.785" y="176.53" size="1.778" layer="95" font="vector" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="PC0(SCL)"/>
+<wire x1="106.045" y1="63.5" x2="132.08" y2="63.5" width="0.1524" layer="91"/>
+<label x="132.08" y="63.5" size="1.778" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="N$34" class="0">

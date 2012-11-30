@@ -76,9 +76,9 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="39.985" y2="0" width="0" layer="20"/>
-<wire x1="39.985" y1="0" x2="39.985" y2="100" width="0" layer="20"/>
-<wire x1="39.985" y1="100" x2="0" y2="100" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="34.905" y2="0" width="0" layer="20"/>
+<wire x1="34.905" y1="0" x2="34.905" y2="100" width="0" layer="20"/>
+<wire x1="34.905" y1="100" x2="0" y2="100" width="0" layer="20"/>
 <wire x1="0" y1="100" x2="0" y2="0" width="0" layer="20"/>
 </plain>
 <libraries>
@@ -499,8 +499,8 @@ design rules under a new name.</description>
 <contactref element="D4" pad="P$2"/>
 <polygon width="0.3048" layer="16" isolate="0.3048" orphans="yes">
 <vertex x="0" y="0"/>
-<vertex x="40.005" y="0"/>
-<vertex x="40.005" y="100.33"/>
+<vertex x="34.925" y="0"/>
+<vertex x="34.925" y="100.33"/>
 <vertex x="0" y="100.33"/>
 </polygon>
 <contactref element="U$2" pad="P$2"/>

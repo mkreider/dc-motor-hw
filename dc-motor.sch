@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.635" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.3175" altunitdist="mm" altunit="mm"/>
+<grid distance="0.635" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.3175" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -4152,7 +4152,7 @@ W = angled&lt;p&gt;
 <attribute name="OC_NEWARK" value="69K6677"/>
 </part>
 <part name="C3" library="Capacitor" deviceset="C-BELAB" device="0805" value="100nF"/>
-<part name="R1" library="DC-DC-converter" deviceset="R-785.0-0.5" device=""/>
+<part name="R1" library="DC-DC-converter" deviceset="R-785.0-0.5" device="" value="R785.0-0,5"/>
 <part name="U$5" library="PowerSupply" deviceset="GND" device=""/>
 <part name="U$4" library="PowerSupply" deviceset="GND" device=""/>
 <part name="C5" library="Capacitor" deviceset="ELK_STEHEND_5_13" device="" value="47µF"/>
@@ -4312,7 +4312,12 @@ W = angled&lt;p&gt;
 <instances>
 <instance part="IC1" gate="G$1" x="85.725" y="83.82"/>
 <instance part="C3" gate="G$1" x="45.085" y="90.17" rot="R180"/>
-<instance part="R1" gate="G$1" x="43.18" y="256.54"/>
+<instance part="R1" gate="G$1" x="43.18" y="256.54" smashed="yes">
+<attribute name="NAME" x="38.735" y="262.255" size="2.032" layer="25"/>
+<attribute name="VALUE" x="38.1" y="258.445" size="2.032" layer="155"/>
+<attribute name="NAME" x="35.814" y="249.047" size="1.778" layer="95" font="vector" ratio="10"/>
+<attribute name="VALUE" x="35.56" y="259.715" size="1.778" layer="96" font="vector" ratio="10"/>
+</instance>
 <instance part="U$5" gate="G$1" x="45.085" y="77.47"/>
 <instance part="U$4" gate="G$1" x="25.4" y="231.14"/>
 <instance part="C5" gate="G$1" x="17.78" y="243.84" smashed="yes" rot="R90">

@@ -4290,6 +4290,9 @@ W = angled&lt;p&gt;
 <part name="R38" library="Resistor" deviceset="0805" device="" value="39k"/>
 <part name="R39" library="Resistor" deviceset="0805" device="" value="10k"/>
 <part name="SV1" library="con-lstb" deviceset="MA06-2" device=""/>
+<part name="U$49" library="PowerSupply" deviceset="GND" device=""/>
+<part name="U$53" library="PowerSupply" deviceset="GND" device=""/>
+<part name="U$54" library="PowerSupply" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4623,6 +4626,9 @@ W = angled&lt;p&gt;
 <attribute name="VALUE" x="289.56" y="197.1675" size="1.524" layer="96"/>
 </instance>
 <instance part="SV1" gate="1" x="216.535" y="260.35"/>
+<instance part="U$49" gate="G$1" x="113.03" y="50.8" rot="R90"/>
+<instance part="U$53" gate="G$1" x="113.03" y="63.5" rot="R90"/>
+<instance part="U$54" gate="G$1" x="113.03" y="109.22" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -4940,6 +4946,21 @@ W = angled&lt;p&gt;
 <wire x1="288.29" y1="194.945" x2="288.29" y2="193.675" width="0.1524" layer="91"/>
 <pinref part="R39" gate="G$1" pin="1"/>
 <junction x="288.29" y="194.31"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="(OC1B)PD4"/>
+<pinref part="U$49" gate="G$1" pin="GND"/>
+<wire x1="110.49" y1="50.8" x2="106.045" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="PC0(SCL)"/>
+<pinref part="U$53" gate="G$1" pin="GND"/>
+<wire x1="110.49" y1="63.5" x2="106.045" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="(ADC0)PA0"/>
+<pinref part="U$54" gate="G$1" pin="GND"/>
+<wire x1="110.49" y1="109.22" x2="106.045" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VDD" class="0">

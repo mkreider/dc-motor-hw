@@ -929,7 +929,7 @@ W = angled&lt;p&gt;
 <part name="U$2" library="Test" deviceset="UMSCHALTER_SINGLE_POLE" device=""/>
 <part name="SV2" library="con-lstb" deviceset="MA06-2" device=""/>
 <part name="R7" library="Resistor" deviceset="R_0,4W" device="" value="1,5k"/>
-<part name="D6" library="Test" deviceset="LED3MM" device="" value="Error"/>
+<part name="D6" library="Test" deviceset="LED3MM" device="" value="Error LED"/>
 </parts>
 <sheets>
 <sheet>
@@ -980,7 +980,7 @@ W = angled&lt;p&gt;
 <instance part="R7" gate="G$1" x="240.665" y="173.99"/>
 <instance part="D6" gate="G$1" x="259.715" y="173.99" smashed="yes" rot="R90">
 <attribute name="NAME" x="266.192" y="173.101" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="258.953" y="175.895" size="1.778" layer="96"/>
+<attribute name="VALUE" x="256.413" y="175.895" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>

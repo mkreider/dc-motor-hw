@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.635" unitdist="mm" unit="mm" style="dots" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -5987,7 +5987,7 @@ W = angled&lt;p&gt;
 <label x="346.71" y="52.07" size="1.778" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
-<net name="LED_YELLOW" class="0">
+<net name="ERROR_LED" class="0">
 <segment>
 <pinref part="SV1" gate="1" pin="2"/>
 <wire x1="208.915" y1="252.73" x2="190.5" y2="252.73" width="0.1524" layer="91"/>

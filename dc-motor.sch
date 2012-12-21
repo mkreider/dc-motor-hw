@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.635" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.3175" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -4293,6 +4293,8 @@ W = angled&lt;p&gt;
 <part name="U$49" library="PowerSupply" deviceset="GND" device=""/>
 <part name="U$53" library="PowerSupply" deviceset="GND" device=""/>
 <part name="U$54" library="PowerSupply" deviceset="GND" device=""/>
+<part name="R40" library="Resistor" deviceset="0805" device="" value="2k7"/>
+<part name="U$55" library="PowerSupply" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4634,6 +4636,11 @@ W = angled&lt;p&gt;
 <instance part="U$49" gate="G$1" x="113.03" y="50.8" rot="R90"/>
 <instance part="U$53" gate="G$1" x="113.03" y="63.5" rot="R90"/>
 <instance part="U$54" gate="G$1" x="113.03" y="109.22" rot="R90"/>
+<instance part="R40" gate="G$1" x="161.29" y="85.725" smashed="yes" rot="R90">
+<attribute name="NAME" x="162.56" y="85.725" size="1.524" layer="95"/>
+<attribute name="VALUE" x="162.56" y="83.5025" size="1.524" layer="96"/>
+</instance>
+<instance part="U$55" gate="G$1" x="161.29" y="77.47" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -4729,6 +4736,9 @@ W = angled&lt;p&gt;
 <wire x1="232.41" y1="157.48" x2="230.505" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="230.505" y1="157.48" x2="230.505" y2="165.1" width="0.1524" layer="91"/>
 <junction x="230.505" y="165.1"/>
+<pinref part="U$3" gate="G$1" pin="NC"/>
+<wire x1="248.92" y1="162.56" x2="248.92" y2="165.1" width="0.1524" layer="91"/>
+<junction x="248.92" y="165.1"/>
 </segment>
 <segment>
 <pinref part="X2" gate="G$1" pin="6"/>
@@ -4974,6 +4984,11 @@ W = angled&lt;p&gt;
 <pinref part="IC1" gate="G$1" pin="(ADC0)PA0"/>
 <pinref part="U$54" gate="G$1" pin="GND"/>
 <wire x1="110.49" y1="109.22" x2="106.045" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R40" gate="G$1" pin="1"/>
+<pinref part="U$55" gate="G$1" pin="GND"/>
+<wire x1="161.29" y1="80.645" x2="161.29" y2="80.01" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VDD" class="0">
@@ -5727,8 +5742,12 @@ W = angled&lt;p&gt;
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="(AIN0/INT2)PB2"/>
-<wire x1="106.045" y1="91.44" x2="133.35" y2="91.44" width="0.1524" layer="91"/>
-<label x="133.35" y="91.44" size="1.778" layer="95" font="vector" xref="yes"/>
+<wire x1="106.045" y1="91.44" x2="161.29" y2="91.44" width="0.1524" layer="91"/>
+<label x="165.735" y="91.44" size="1.778" layer="95" font="vector" xref="yes"/>
+<pinref part="R40" gate="G$1" pin="2"/>
+<wire x1="161.29" y1="91.44" x2="165.735" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="161.29" y1="91.44" x2="161.29" y2="90.805" width="0.1524" layer="91"/>
+<junction x="161.29" y="91.44"/>
 </segment>
 </net>
 <net name="FAEHRTNACHB" class="0">
